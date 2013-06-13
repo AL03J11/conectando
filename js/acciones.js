@@ -1,7 +1,7 @@
 // JavaScript Document
 function LoginConectar (U, P)
 {
-	datos= "usuario=" +U+ "&paswsword" +P;
+	datos= "usuario=" +U+ "&password" +P;
 	$.ajax({
 		type: "POST",
 		url: "192.168.1.195/Sitio6/Log_in_m.php" ,
