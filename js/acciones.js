@@ -4,7 +4,7 @@ function LoginConectar (U, P)
 	datos= "usuario=" +U+ "&paswsword" +P;
 	$.ajax({
 		type: "POST",
-		url: "192.168.1.195/Siio6/Log_in_m.php" ,
+		url: "192.168.1.195/Sitio6/Log_in_m.php" ,
 		data: datos
 	}).done(function(msg){
 		alert(msg);
